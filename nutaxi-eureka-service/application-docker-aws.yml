@@ -3,3 +3,5 @@ eureka:
     region: us-east-1
     availability-zones:
       us-east-1: us-east-1c
+    serviceUrl:
+      defaultZone: http://ec2-54-80-121-92.compute-1.amazonaws.com:8761/eureka/
